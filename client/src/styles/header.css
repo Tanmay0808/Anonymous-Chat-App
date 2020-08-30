@@ -1,0 +1,20 @@
+.chat-header{
+    background-color:rgb(8, 32, 63);
+    color: white;
+    padding: 20px 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.leave-room-btn{
+    float: right;
+    background-color: rgba(210, 237, 255, 0.884);
+    color: black;
+}
+
+@media screen and (max-width:574.5px)
+{
+    .chat-header{
+        padding: 20px;
+    }
+}

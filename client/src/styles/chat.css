@@ -1,0 +1,66 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(8, 32, 63);
+    border-radius: 10px;
+}
+
+.chat-container{
+    height: 100vh;
+    box-shadow: 0 3px 10px rgb(40, 99, 177);
+}
+
+.row-two{
+    height: 88vh;
+}
+
+.users-box{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(212, 228, 238, 0.884);
+}
+
+.chat-box{
+    padding:0;
+    border: none;
+    max-height: 100%;
+}
+
+@media screen and (max-width:768px)
+{
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+    .chat-container{
+        min-width: 90vw;
+    }
+    .chat-box{
+        max-height: 100%;
+    }
+}
+
+
+@media screen and (max-width:574.5px)
+{
+    body{
+        background-color: rgb(8, 32, 63);
+    }
+    .chat-container{
+        height: 85vh;
+        max-height: 100%;
+    }
+    .row-two{
+        max-height: 80%;
+    }
+    .users-box{
+        height: fit-content;
+        background-color: rgba(210, 237, 255, 0.884);
+    }
+}
