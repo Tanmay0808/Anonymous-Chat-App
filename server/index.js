@@ -62,12 +62,6 @@ io.on('connection', (socket) => {
 
 });
 
-/*app.use(express.static(__dirname + '/public'));
-
-app.get('*',(req,res)=>{
-    res.sendFile(path.join(__dirname,'/public/index.html'));
-});*/
-
 const port = process.env.PORT || 5000;
 
 http.listen(port,()=>{

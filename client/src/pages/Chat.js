@@ -16,13 +16,10 @@ function ChatRoom({ location }) {
     const [users, setUsers] = useState('');
     const [newMessage, setMessageToSend] = useState('');
     const [allMessages, setMessagesInRoom] = useState([]);
-    //const URI = "https://chat-anonymous.herokuapp.com/";
 
     //componentDidUpdate Equivalent
     useEffect(() => {
         const { name, room } = queryString.parse(location.search);
-
-        //socket = io();
 
         setName(name);
         setRoom(room);

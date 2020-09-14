@@ -13,7 +13,7 @@ function JoinChat() {
             <div className="row justify-content-center row-one">
                 
                 <div className="left col-lg-5 col-md-4 col-sm-4 col-xs-4 text-center text-white">
-                    <img className="chat-logo" src={ImageLogo} alt="App Logo" />
+                    <img className="chat-logo" src={ImageLogo} alt="." />
                     <h1>Chat in real time without revealing your identity</h1>
                 </div>
 
