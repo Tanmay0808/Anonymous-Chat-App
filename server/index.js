@@ -11,7 +11,6 @@ app.use(cors());
 
 //Handle New Connection
 io.on('connection', (socket) => {
-
     //Handle Join Room
     socket.on('joinRoom',({name, room}, callback)=>{
         const {error, user} = addUser({ id : socket.id, name, room });
